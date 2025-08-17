@@ -66,7 +66,7 @@
 			(pin power_in line
 				(at -19.05 8.89 0)
 				(length 2.54)
-				(name "VDD"
+				(name "VDD_DIV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,14 +102,14 @@
 			(pin power_in line
 				(at -19.05 3.81 0)
 				(length 2.54)
-				(name "P22"
+				(name "VDD_DIV"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,17 +117,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -19.05 1.27 0)
 				(length 2.54)
-				(name "P21"
+				(name "V_BB_Q_P"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -135,17 +135,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -19.05 -1.27 0)
 				(length 2.54)
-				(name "P20"
+				(name "V_BB_Q_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,14 +156,14 @@
 			(pin power_in line
 				(at -19.05 -3.81 0)
 				(length 2.54)
-				(name "P19"
+				(name "VDD_LNA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,14 +174,14 @@
 			(pin power_in line
 				(at -19.05 -6.35 0)
 				(length 2.54)
-				(name "P18"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,14 +192,14 @@
 			(pin power_in line
 				(at -19.05 -8.89 0)
 				(length 2.54)
-				(name "P17"
+				(name "VDD_LNA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,10 +228,10 @@
 			(pin power_in line
 				(at -10.16 -16.51 90)
 				(length 2.54)
-				(name "VDD"
+				(name "VDD_DIV"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -246,7 +246,7 @@
 			(pin power_in line
 				(at -7.62 17.78 270)
 				(length 2.54)
-				(name "VDD_MIXER"
+				(name "VDD_MIX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -264,14 +264,14 @@
 			(pin bidirectional line
 				(at -7.62 -16.51 90)
 				(length 2.54)
-				(name "P15"
+				(name "DQ_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -300,14 +300,14 @@
 			(pin power_in line
 				(at -5.08 -16.51 90)
 				(length 2.54)
-				(name "P14"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,14 +336,14 @@
 			(pin bidirectional line
 				(at -2.54 -16.51 90)
 				(length 2.54)
-				(name "P13"
+				(name "VSOURCE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -351,10 +351,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 0 17.78 270)
 				(length 2.54)
-				(name "PAD_CK_IN"
+				(name "CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -372,14 +372,14 @@
 			(pin bidirectional line
 				(at 0 -16.51 90)
 				(length 2.54)
-				(name "P12"
+				(name "VSOURCE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			(pin bidirectional line
 				(at 2.54 17.78 270)
 				(length 2.54)
-				(name "CS_BIAS_MIXER"
+				(name "BIAS_MIX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -408,14 +408,14 @@
 			(pin power_in line
 				(at 2.54 -16.51 90)
 				(length 2.54)
-				(name "P11"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -441,17 +441,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 5.08 -16.51 90)
 				(length 2.54)
-				(name "P10"
+				(name "VGATE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -480,14 +480,14 @@
 			(pin power_in line
 				(at 7.62 -16.51 90)
 				(length 2.54)
-				(name "P9"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -534,7 +534,7 @@
 			(pin power_in line
 				(at 16.51 6.35 180)
 				(length 2.54)
-				(name "VDD_MIXER"
+				(name "VDD_MIX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -567,7 +567,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 16.51 1.27 180)
 				(length 2.54)
 				(name "V_BB_I_N"
@@ -606,14 +606,14 @@
 			(pin bidirectional line
 				(at 16.51 -3.81 180)
 				(length 2.54)
-				(name "CS_BIAS_LNA"
+				(name "BIAS_LNA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)

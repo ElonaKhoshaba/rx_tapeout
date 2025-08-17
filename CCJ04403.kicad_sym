@@ -73,7 +73,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "102"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -91,7 +91,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "101"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -235,7 +235,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "100"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -469,7 +469,7 @@
 						)
 					)
 				)
-				(number "32"
+				(number "103"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -631,7 +631,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "104"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -649,7 +649,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "105"
 					(effects
 						(font
 							(size 1.27 1.27)
