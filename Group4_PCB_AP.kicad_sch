@@ -1546,16 +1546,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "replace 0-ohms\nwith jumpers"
-		(exclude_from_sim no)
-		(at 119.126 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5683fb1b-fcbf-4bf4-9ec2-cb01cf902209")
-	)
 	(text "Inductors with 0805 footprint\n"
 		(exclude_from_sim no)
 		(at 231.14 151.892 0)
@@ -1565,16 +1555,6 @@
 			)
 		)
 		(uuid "77a9c435-7951-4b59-83ef-5550a873f9c3")
-	)
-	(text "Squeeze Decaps\nCloser to chip! \n(4mm)\nRestitch GND vias"
-		(exclude_from_sim no)
-		(at 279.146 144.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fe268847-8409-425e-8eb8-a0cccf55cad1")
 	)
 	(text_box "DQ ENABLE, 0805"
 		(exclude_from_sim no)
